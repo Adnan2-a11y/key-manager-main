@@ -1,0 +1,21 @@
+{
+  "name": "key-manager-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install-all": "npm install --prefix client && npm install --prefix server",
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "start": "npm run start --prefix server && npm run preview --prefix client"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "description": "``` docker login ```",
+  "main": "hashPassword.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0"
+  }
+}

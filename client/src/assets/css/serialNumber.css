@@ -1,0 +1,21 @@
+.main-table {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+.copy-notice {
+  position: absolute;
+}
+.key-wrapper {
+  position: relative;
+}
+th {
+  font-weight: 500;
+}
+.icon {
+  cursor: pointer;
+}
+
+.th-key {
+  width: 15% !important;
+}
+

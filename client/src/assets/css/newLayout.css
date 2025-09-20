@@ -1,0 +1,109 @@
+.multistore-dashboard-page h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.multistore-dashboard-page .totals {
+    margin-bottom: 30px;
+}
+.multistore-dashboard-page .totals .heading-area {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.multistore-dashboard-page .totals .heading-area h4 {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 12px;
+    margin-top: 0;
+}
+.multistore-dashboard-page .right-side {
+    margin-left: auto;
+}
+
+
+.card-base {
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 1px 1px #c9d9e3;
+    color: rgba(55,65,81,.95);
+}
+.multistore-dashboard-page .totals .total-stat {
+    border-top: 4px solid #c2d4e0;
+    border-top-width: 4px!important;
+}
+.multistore-dashboard-page .totals .total-stat.revenue {
+    border-top-color: #4263eb;
+}
+.multistore-dashboard-page .totals .total-stat .amount {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+.growth {
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+}
+.multistore-dashboard-page .totals .total-stat .amount .growth {
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-top: -3px;
+    padding: 2px 5px;
+    vertical-align: middle;
+}
+.multistore-dashboard-page .totals .total-stat .stat {
+    font-size: 14px;
+}
+
+
+.multistore-dashboard-page .stores-list .heading-area {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.multistore-dashboard-page .stores-list .heading-area h4 {
+    display: inline-block;
+    margin: 0 12px 0 0;
+}
+
+.multistore-dashboard-page .stores-list .store .ant-card-head a {
+    align-items: center;
+    color: #68768c;
+    display: flex;
+}
+.store-title {
+    text-decoration: none;
+}
+.tic-store-avatar {
+    display: inline-block;
+}
+.avatar--wrapper {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font: 16px / 30px Helvetica, Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+    background-color: rgb(255, 87, 34);
+    color: rgb(255, 167, 114);
+    font-weight: 700;
+}
+.tic-store-avatar .avatar--wrapper {
+    border-radius: 4px!important;
+}
+.multistore-dashboard-page .stores-list .store .ant-card-head .name {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.55;
+    padding-left: 10px;
+}
+
+.ant-picker-panel-layout {
+  flex-direction: row-reverse;
+}

@@ -1,0 +1,43 @@
+.main-content,
+.right-sidebar {
+  height: calc(100vh - 87px);
+  overflow: hidden;
+}
+
+.main-content-inner {
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.right-sidebar .ads-container {
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.main-content-inner::-webkit-scrollbar,
+.table-responsive::-webkit-scrollbar,
+.right-sidebar .ads-container::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.main-content-inner::-webkit-scrollbar-thumb,
+.table-responsive::-webkit-scrollbar-thumb,
+.right-sidebar .ads-container::-webkit-scrollbar-thumb {
+  background: rgb(94, 94, 94);
+  border-radius: 8px;
+}
+
+.main-content-inner::-webkit-scrollbar-thumb:hover,
+.table-responsive::-webkit-scrollbar-thumb:hover,
+.right-sidebar .ads-container::-webkit-scrollbar-thumb:hover {
+  background: rgb(147, 147, 147);
+  border-radius: 8px;
+}
+
+.main-content-inner::-webkit-scrollbar-track,
+.table-responsive::-webkit-scrollbar-track,
+.right-sidebar .ads-container::-webkit-scrollbar-track {
+  background: transparent;
+}

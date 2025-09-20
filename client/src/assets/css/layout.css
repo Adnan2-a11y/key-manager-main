@@ -1,0 +1,46 @@
+:root {
+    --lightergray: #eef3f6;
+    --lightgray: #1f2223;
+    --fontgray: #aaa398;
+    --darkgray: #191b1c;
+    --mediumgray: #626262;
+    --accent: 0, 92, 167;
+    --brand-color-1: #005ca7;
+    --brand-color-2: #01a1b9;
+    --chart-primary: #019eb7;
+    --chart-primary-light: #019eb712;
+}
+
+.beautify h4 {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.beautify h2,
+.beautify h4,
+.beautify th
+{
+    font-weight: 600;
+}
+
+.beautify h2,
+.beautify h4,
+.beautify th {
+    color: var(--mediumgray);
+}
+
+.beautify h2,
+.beautify h4,
+.beautify th {
+    font-family: BentonSans Regular;
+}
+
+.beautify h2,
+.beautify h4,
+.beautify th {
+    margin-bottom: 0px;
+}
+
+.flex {
+    display: flex;
+}

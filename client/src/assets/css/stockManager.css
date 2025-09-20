@@ -1,0 +1,37 @@
+/* StockManagerTable */
+
+.tableContainer {
+  margin-top: 20px;
+}
+
+.customTable {
+  margin: 0 auto;
+}
+
+.customTable .ant-table-thead > tr > th {
+  text-align: left; /* Align text in table headers to left */
+}
+
+.customTable .ant-table-tbody > tr > td {
+  text-align: center; /* Align text in data cells to center */
+}
+
+.ant-table-title {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/* Change color of pagination arrows */
+.ant-pagination-item-link {
+  color: rgba(255, 255, 255, 0.363) !important;
+}
+
+.product-link {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.table-footer h1 {
+  text-align: right;
+  font-size: 14px;
+}

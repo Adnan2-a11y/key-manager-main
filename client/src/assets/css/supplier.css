@@ -1,0 +1,52 @@
+/*
+.modal-content {
+  width: 100%;
+}
+
+.form-group {
+  margin-top: 10px;
+}
+*/
+
+/* Updated Supplier Modal and Form Styles */
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 550px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #444;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #007bff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}

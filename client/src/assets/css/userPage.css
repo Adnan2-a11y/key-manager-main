@@ -1,0 +1,8 @@
+.main_container_user_table .table th {
+  color: #243a48;
+  background-color: #e4e4e4;
+  border: 1px solid #7e97a7;
+  border-width: 1px 0 1px 0;
+  font-size: 13px;
+  width: 13%;
+}

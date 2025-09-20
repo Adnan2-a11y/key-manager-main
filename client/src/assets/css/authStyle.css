@@ -1,0 +1,132 @@
+/*
+.form-wrapper {
+  background-color: #0d131c;
+  border: 1px solid #5a5a5a;
+  color: white;
+  max-width: 450px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.main-content header {
+  text-align: center;
+  color: #fff;
+}
+.optInput {
+  justify-content: space-between;
+}
+.optInput input.singleInput {
+  width: 50px !important;
+  border-radius: 5px;
+  border: 2px solid #000000;
+  font-size: 22px;
+}
+.optInput input.singleInput:focus-visible {
+  outline: none;
+  background-color: #000000;
+  border: 2px solid #dec60d;
+  color: #fff;
+}
+*/
+
+/* === Updated Auth Page Styles === */
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #1a1a2e; /* Dark blue background */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.form-wrapper {
+  background-color: #16213e; /* Darker shade for the form */
+  color: #e0e1dd;
+  width: 100%;
+  max-width: 450px;
+  padding: 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  border: 1px solid #0f3460;
+}
+
+.form-wrapper header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form-wrapper header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #e94560; /* Accent color */
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #a7a9be;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  background-color: #1a1a2e;
+  border: 1px solid #0f3460;
+  border-radius: 5px;
+  color: #e0e1dd;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #e94560;
+  box-shadow: 0 0 0 0.2rem rgba(233, 69, 96, 0.25);
+}
+
+.auth-button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e94560;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.auth-button:hover {
+  background-color: #d43d51;
+}
+
+/* === OTP Input Styles === */
+.otpInput {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.otpInput .singleInput {
+  width: 50px !important;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid #0f3460;
+  background-color: #1a1a2e;
+  color: #e0e1dd;
+  font-size: 22px;
+  text-align: center;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.otpInput .singleInput:focus {
+  outline: none;
+  border-color: #e94560;
+  box-shadow: 0 0 0 0.2rem rgba(233, 69, 96, 0.25);
+}

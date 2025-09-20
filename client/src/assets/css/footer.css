@@ -1,0 +1,30 @@
+.footer {
+  padding: 50px 0 30px;
+  background: #0d131c;
+  color: #fff;
+}
+
+.footer p {
+  color: #fff;
+}
+
+.footer .browser-wrap {
+  font-size: 12px;
+  text-align: center;
+}
+
+ul.policy-link {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ul.policy-link a {
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  color: #ffffff;
+}

@@ -1,0 +1,36 @@
+.product-suggestion {
+  cursor: pointer;
+}
+
+.product-dropdown {
+  text-align: start;
+  width: 100%;
+  color: #000;
+  border: none;
+}
+
+.product-dropdown-menu {
+  position: relative;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.product-dropdown-wrapper {
+  max-height: 300px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.react-date-picker__wrapper {
+  border: none !important;
+}
+
+.product-dropdown-menu.dropdown-menu {
+  margin: 0;
+  padding: 0;
+}
+
+.product-search-input {
+  position: absolute;
+  top: -50px; /* Adjust the top position as needed */
+  width: 100%; /* Ensure full width */
+  z-index: 999; /* Ensure the input box appears above other dropdown items */
+}

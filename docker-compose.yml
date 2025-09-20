@@ -1,0 +1,41 @@
+version: "3.9"
+
+services:
+  client:
+    image: autocircled/key-hub-front:3.6
+    restart: always
+    container_name: client
+    ports:
+      - "5174:80"
+    networks:
+      - mongo-net
+
+  server:
+    image: autocircled/key-hub:3.8
+    restart: always
+    container_name: server
+    ports:
+      - "3000:3000"
+    volumes:
+      - keyhub-data:/var/key-hub
+    environment:
+      - NODE_ENV=production
+      - MONGO_URI=${MONGO_URI}
+      - TELEGRAM_API=${TELEGRAM_API}
+      - TELEGRAM_ADMIN_ID=${TELEGRAM_ADMIN_ID}
+      - SMTP_USER=${SMTP_USER}
+      - SMTP_PASSWORD=${SMTP_PASSWORD}
+      - SMTP_HOST=${SMTP_HOST}
+      - SMTP_PORT=${SMTP_PORT}
+    networks:
+      - mongo-net
+
+volumes:
+  mongo-data:
+    driver: local
+  keyhub-data:
+    driver: local
+
+networks:
+  mongo-net:
+    driver: bridge

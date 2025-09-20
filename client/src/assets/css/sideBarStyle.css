@@ -1,0 +1,28 @@
+.hover__width__row {
+  display: flex;
+  gap: 20px;
+}
+
+.hover__width__sidebar {
+  /* width : 66px !important;  */
+  /* overflow: hidden; */
+  width: 4% !important;
+}
+
+.hover__width__main {
+  width: 93% !important;
+}
+
+.AccountNav.sd-hide .account-menu .parent-inner > .icon {
+  margin-left: 14px;
+}
+
+.AccountNav.sd-show .account-menu .parent-inner > .icon {
+  margin-left: 4px;
+}
+
+@media screen and (max-width: 767px) {
+  .hover__width__main {
+    width: 100%;
+  }
+}

@@ -1,0 +1,255 @@
+.AccountNav ul.accountNavBar {
+  background-color: #0d131c;
+  border-radius: 4px;
+  z-index: 99;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  visibility: visible;
+  height: calc(100vh - 160px);
+  overflow-y: hidden;
+}
+
+.AccountNav.sh-show ul.accountNavBar {
+  padding: 10px 0;
+}
+
+.AccountNav ul.accountNavBar::-webkit-scrollbar {
+  width: 0px;
+  height: 10px;
+}
+
+.AccountNav ul.accountNavBar::-webkit-scrollbar-thumb {
+  background: rgb(66, 66, 66);
+  border-radius: 8px;
+}
+
+.AccountNav ul.accountNavBar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.AccountNav ul.accountNavBar {
+  overflow-y: hidden;
+}
+
+.AccountNav:hover ul.accountNavBar {
+  overflow-y: scroll;
+}
+
+.AccountNav.small-device ul.accountNavBar {
+  background-color: #000000a6;
+}
+
+ul.accountNavBar li a {
+  text-decoration: none;
+}
+
+.accountNavBar span.gmt {
+  font-size: 11px;
+  border-left: 1px solid #c5d0d7;
+  padding: 0 5px;
+}
+
+.accountNavBar a#logout {
+  background-color: #3a4e5a;
+  border-bottom-width: 0;
+  color: #fff;
+  font-weight: 700;
+  padding: 3px;
+  border-radius: 4px;
+  text-align: center;
+  display: block;
+}
+
+.accountNavBar li.logout {
+  padding: 7px 0px 5px;
+}
+
+.AccountNav .has-child ul {
+  display: none;
+  list-style: none;
+  padding-left: 0;
+}
+
+.AccountNav .has-child.active ul {
+  display: block;
+}
+
+.AccountNav li.account-menu a {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  color: #e2e2e2;
+  font-weight: 500;
+}
+
+.sub_menu_icon_admin {
+  font-size: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.child_menu {
+  font-size: 15px;
+}
+
+.AccountNav.sd-show .account-menu li a {
+  padding: 2px 10px;
+}
+
+.AccountNav li.account-menu a:hover {
+  background: #ffb80c;
+  font-weight: 500;
+  color: #000;
+}
+
+.AccountNav li.account-menu a svg {
+  transform: rotate(0deg);
+  transition: all 0.3s ease;
+}
+
+.AccountNav li.account-menu.active a svg {
+  transform: rotate(90deg);
+}
+
+.AccountNav .parent-inner {
+  cursor: pointer;
+}
+
+.AccountNav .account-menu .parent-inner {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.AccountNav.sd-show .account-menu .parent-inner {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.AccountNav .account-menu .parent-inner {
+  border-radius: 0;
+  color: #e2e2e2;
+  font-weight: 500;
+  justify-content: start;
+}
+
+.AccountNav .account-menu:hover .parent-inner {
+  background-color: #4a4b4c;
+  font-weight: 500;
+  color: #fff;
+}
+
+.AccountNav .account-menu svg.icon {
+  font-size: 24px;
+}
+
+.left-sidebar .parent-text,
+.left-sidebar .parent-text.hide,
+.left-sidebar .parent-text.show {
+  transition: all 0.5s ease;
+}
+
+.left-sidebar .parent-text.hide {
+  width: 0 !important;
+  overflow: hidden;
+  white-space: nowrap;
+  opacity: 0;
+}
+
+.left-sidebar .parent-text.show {
+  width: auto !important;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.AccountNav.small-device {
+  display: none;
+}
+
+.AccountNav.small-device.sd-show {
+  display: block;
+  position: absolute;
+  z-index: 90;
+  width: 100%;
+  top: 0;
+  margin: 0 !important;
+  left: 0;
+  height: 100vh;
+}
+
+.AccountNav.small-device ul.accountNavBar {
+  width: 70%;
+  overflow-y: auto;
+  height: 100vh;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  position: relative;
+}
+
+.AccountNav .close,
+.AccountNav .overlay {
+  display: none;
+}
+
+.AccountNav.small-device .overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #0000009c;
+  z-index: 10;
+}
+
+.AccountNav.small-device .close {
+  display: block;
+  position: absolute;
+  z-index: 15;
+  right: 20px;
+  top: 20px;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #7f7f7f;
+  cursor: pointer;
+}
+
+.AccountNav .close svg {
+  font-size: 28px;
+  fill: #e2e2e2;
+}
+
+.col-md-2,
+.col-md-3,
+.col-md-8,
+.col-md-7,
+.col-md-1,
+.custom-col-md-1,
+.col-md-9,
+.custom-col-md-9 {
+  transition: width 0.5s ease;
+  /* Adjust the timing function and duration as needed */
+}
+
+@media screen and (min-width: 768px) {
+  .custom-col-md-1 {
+    width: calc(8.33333333% - 3%) !important;
+  }
+
+  .custom-col-md-9 {
+    width: calc(75% + 3%) !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1236px) {
+  .custom-col-md-1 {
+    min-width: 75px;
+  }
+
+  .custom-col-md-9 {
+    max-width: calc(calc(75% + 8%) - 65px) !important;
+  }
+}
